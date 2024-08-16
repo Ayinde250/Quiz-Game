@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF8DC;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+
+    width: 35vw;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    border-right: 2px solid #530004;
+    /* border-left: 2px solid #530004; */
+    border-bottom: 2px solid #530004;
+    box-shadow: 10px 5px 5px black;
+    font-family: "Pacifico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.instruction {
+   margin-top: 40px;
+   padding-bottom: 5px;
+   border-bottom: 2px solid black ;
+   font-family: "Playfair Display", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1.5rem;  
+    
+}
+
+main {
+
+    padding:0px 80px;
+}
+
+ol.question_list{
+    
+    margin-top: 30px;
+
+}
+
+ol.question_list > li {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;   
+
+}
+
+main {
+    display: flex;
+}
+
+main .quiz_container {
+    flex: 75%;
+}
+
+main .score {
+    flex: 25%;
+}
+
+ol.options_list{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin-top: 20px;
+}
+
+ol.options_list > li {
+    list-style-type: none;
+    margin-top: 20px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+P.comment {
+
+    margin-top: 20px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem
+
+}
+
+.next button.next-question {
+    display: flex;
+    flex-direction: row;
+    text-align:end;
+}
+
+button.next-question {
+
+    background-color: #BEDC74;
+    padding : 1rem 2rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.score {
+    margin-top: 30px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem
+
+}
