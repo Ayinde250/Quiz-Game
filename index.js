@@ -2,17 +2,17 @@ const quizQuestions = [
     {
         question: "What is the capital of Nigeria?",
         options: ["Ekiti", "Abuja", "Lagos", "Ibadan"],
-        correctAnswer: "Lagos"
+        correctAnswer: "Abuja"
     },
 
     {
-        question: "Nigeria gained indepence in the year?",
+        question: "Nigeria gained independence in the year?",
         options: [ 1990, 1960, 1984, 2002 ],
         correctAnswer: 1960
     },
 
     {
-        question: "What are the colours of the Nigerian flag?",
+        question: "What are the colours of the Nigeria flag?",
         options: ["Green and White", "Red and Yellow", "White and Black", "Orange and grey"],
         correctAnswer: "Green and White"
     },
@@ -41,7 +41,7 @@ const quizQuestions = [
         correctAnswer: "online"
     },
     {
-        question: "Courses available on Kodecamp are the following expect?",
+        question: "Courses available on Kodecamp are the following except?",
         options: ["Frontend", "Backend", "Middleend", "Nodejs"],
         correctAnswer: "Middleend"
     },
@@ -76,7 +76,7 @@ const quizQuestions = [
         correctAnswer: "Javascript"
     },
     {
-        question: "How many world cup stars does Nigerai has?",
+        question: "How many world cup stars does Nigeria has?",
         options: [0, 2, 4, 6],
         correctAnswer: 0
     },
@@ -91,17 +91,17 @@ const quizQuestions = [
         correctAnswer: 7
     },
     {
-        question: "Arrays are always enclosed in what of bracket",
+        question: "Arrays are always enclosed in what type of bracket",
         options: [ "Circular", "Square", "Curly", "Angular" ],
         correctAnswer: "Square"
     },
     {
-        question: "Objects can hold different data type",
+        question: "Objects can hold different data types ?",
         options: [ "False", "True", "", "" ],
         correctAnswer: "True"
     },
     {
-        question: "Who is the best footballer in the world?",
+        question: "Who is the best footballer in the world ?",
         options: ["Ronaldo", "Messi", "Halland", "lewandoski"],
         correctAnswer: "Messi"
     }
