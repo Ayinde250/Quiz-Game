@@ -110,12 +110,10 @@ const quizQuestions = [
 let currentQuestion = 0;
 let score = 0;
 
-const quizgame = document.querySelector(".quiz_container");
 const questionDisplay = document.querySelector(".question_list");
 const optionDisplay = document.querySelector(".options_list");
 const commentDisplay = document.querySelector(".comment");
 const nextButton = document.querySelector(".next-question")
-const buttonOption = document.createElement("button");
 const scoreDisplay = document.querySelector(".score");
 
 function displayQuestion() {
@@ -124,10 +122,7 @@ function displayQuestion() {
 
     questionDisplay.innerHTML = "";
 
-    // questions numeric listing is not changing still working on it 
-    const questionItem = document.createElement("li");
-    questionItem.textContent = quest.question;
-    questionDisplay.appendChild(questionItem);
+    questionDisplay.textContent = `${currentQuestion + 1}). ${quest.question}`;
 
     optionDisplay.innerHTML = "";
 
@@ -174,6 +169,8 @@ function displayQuestion() {
 
 }
 
+displayQuestion();
+
 function checkAnswer() {
 
     const selectedOption = document.querySelector('input[name="quiz-options"]:checked');
@@ -214,6 +211,5 @@ nextButton.onclick = function() {
     }
 };
 
-displayQuestion();
 
 
