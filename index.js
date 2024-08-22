@@ -7,8 +7,8 @@ const quizQuestions = [
 
     {
         question: "Nigeria gained independence in the year?",
-        options: [ 1990, 1960, 1984, 2002 ],
-        correctAnswer: 1960
+        options: [ "1990", "1960", "1984", "2002" ],
+        correctAnswer: "1960"
     },
 
     {
@@ -19,8 +19,8 @@ const quizQuestions = [
 
     {
         question: "Nigeria consist of how many states?",
-        options: [ 99, 44, 30, 36 ],
-        correctAnswer: 36
+        options: [ "99", "44", "30", "36" ],
+        correctAnswer: "36"
     },
 
     {
@@ -36,7 +36,7 @@ const quizQuestions = [
     },
 
     {
-        question: "KodeCamp is what type of bootcamp",
+        question: "KodeCamp is what type of bootcamp?",
         options: ["online", "offline", "physical", "spiritual"],
         correctAnswer: "online"
     },
@@ -77,8 +77,8 @@ const quizQuestions = [
     },
     {
         question: "How many world cup stars does Nigeria has?",
-        options: [0, 2, 4, 6],
-        correctAnswer: 0
+        options: ["0", "2", "4", "6" ],
+        correctAnswer: "0"
     },
     {
         question: "The best football club in the world?",
@@ -87,21 +87,21 @@ const quizQuestions = [
     },
     {
         question: "Messi has how many gloden boosts?",
-        options: [ 10, 7, 8, 9 ],
-        correctAnswer: 7
+        options: [ "10", "7", "8", "9" ],
+        correctAnswer: "7"
     },
     {
-        question: "Arrays are always enclosed in what type of bracket",
+        question: "Arrays are always enclosed in what type of bracket?",
         options: [ "Circular", "Square", "Curly", "Angular" ],
         correctAnswer: "Square"
     },
     {
-        question: "Objects can hold different data types ?",
+        question: "Objects can hold different data types?",
         options: [ "False", "True", "", "" ],
         correctAnswer: "True"
     },
     {
-        question: "Who is the best footballer in the world ?",
+        question: "Who is the best footballer in the world?",
         options: ["Ronaldo", "Messi", "Halland", "lewandoski"],
         correctAnswer: "Messi"
     }
