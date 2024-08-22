@@ -45,6 +45,7 @@ header h1 {
 main {
 
     padding:0px 80px;
+    display: flex;
 }
 
 ol.question_list{
@@ -63,10 +64,6 @@ ol.question_list > li {
     font-style: normal;
     font-size: 2rem;   
 
-}
-
-main {
-    display: flex;
 }
 
 main .quiz_container {
@@ -127,3 +124,55 @@ h1.score {
     font-style: normal;
 
 }
+
+@media (max-width:768px ) {
+
+    .instruction {
+        font-size: 1rem;
+
+    }
+
+    main {
+
+        padding: 0;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 429px) {
+
+    header h1 {
+
+        width: 70vw;
+   
+    }
+    
+
+    main {
+
+        padding: 0;
+        flex-direction: column;
+    } 
+
+    ol.question_list{
+
+        font-size: 1.5rem;  
+    
+    }
+    
+    ol.options_list > li {
+        font-weight: 500;
+        font-size: 1rem;   
+    
+    }
+
+    h1.score {
+
+       font-size: 1.5rem;
+    
+    }
+
+}
+
+
+
